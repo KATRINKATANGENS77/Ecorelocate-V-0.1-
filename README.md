@@ -53,6 +53,9 @@ python -m venv .venv
 # For macOS / Linux:
 source .venv/bin/activate
 
+# 2 Install backend dependencies
+pip install -r requirements.txt
+
  ### 3. Environment Configuration
 Copy `.env.example` to `.env` in the root directory and fill in your personal Notion API credentials:
 ```bash
